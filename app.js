@@ -6,7 +6,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
 
-connectDB();
+// Connect to MongoDB
+// connectDB();
 
 app.use(express.json());
 
